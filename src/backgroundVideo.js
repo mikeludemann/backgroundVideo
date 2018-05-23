@@ -125,7 +125,7 @@
 
         if (settings.mpeg != "" || settings.mpeg != "none") {
 
-            $("#" + settings.settingID + "").append("<source src=" + settings.mpeg + " type='video/mp4'>");
+            $("#" + settings.settingID + "").append("<source src=" + settings.mpeg + " type='video/mpeg'>");
 
         } else {
 
